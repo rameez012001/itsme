@@ -58,6 +58,10 @@ body {
     line-height: 32px!important;
     font-family: var(--base-font);
 }
+.container{
+    width: 100%;
+    margin: 0 auto;
+}
 
 a {
     color: var(--base-color);
