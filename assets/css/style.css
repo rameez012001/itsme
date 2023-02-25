@@ -652,7 +652,7 @@ a.theme-btn:hover i {
 
 .lets-chat span {
     font-size: 12px;
-    color: var(--heading-color)!important;
+    color: var(--heading-color);
 }
 
 .lets-chat button {
