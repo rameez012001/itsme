@@ -652,7 +652,7 @@ a.theme-btn:hover i {
 
 .lets-chat span {
     font-size: 12px;
-    color: var(--heading-color);
+    color: var(--heading-color)!important;
 }
 
 .lets-chat button {
@@ -1095,23 +1095,27 @@ b a:not(:hover) {
 .bar-item-title {
     font-size: 14px;
     font-weight: 500;
-    padding-left: 20px;
+    padding-left: 20px!important;
     color: var(--heading-color);
 }
 
 .bar-item-value {
     font-size: 10px;
-    padding-top: 2px;
+    padding-top: 2px!important;
     color: var(--heading-color);
 }
 
 .progress {
+    display: flex;
     height: 8px;
     border-radius: 5px;
+    background-color: #e9ecef;
 }
 
 .progress-bar {
     background-color: #75a9d6;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
 }
 
 .progress-bar {
@@ -1508,6 +1512,13 @@ b a:not(:hover) {
 .form-group {
     margin: 45px 0 0;
 }
+.form-group textarea{
+ height: auto;
+}
+#name::placeholder,#email::placeholder,#message::placeholder{
+    color:#7a8289;
+    font-weight: 300;
+}
 
 .form-control {
     border: none;
@@ -1876,7 +1887,13 @@ blockquote .designation {
 }
 
 .footer-contact h3 {
-    font-size: 23px;
+    font-size: 23px!important;
+    font-weight: 500;
+    margin-bottom: 8px;
+}
+.footer-contact h2 {
+    margin-bottom: 8px;
+    font-weight: 700;
 }
 
 .social-style-two a {

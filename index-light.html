@@ -17,8 +17,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
     <!--====== FontAwesome ======-->
     <link href="assets/css/fontawesome.5.9.0.min.css" rel="stylesheet">
-    <!--====== Bootstrap ======-->
-    <link href="assets/css/bootstrap-4.5.3.min.css" rel="stylesheet">
+    <!-- ======= Tailwind css ======== -->
+    <link href="assets/css/output.css" rel="stylesheet">
     <!--====== Spacing ======-->
     <link href="assets/css/spacing.min.css" rel="stylesheet">
     <!--====== PagePiling ======-->
@@ -31,6 +31,8 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <!--====== Responsive css ======-->
     <link rel="stylesheet" href="assets/css/responsive.css">
+    <!-- Additional css -->
+    <link rel="stylesheet" href="assets/css/additional.css">
 </head>
 
 <body class="body-piling">
@@ -46,7 +48,7 @@
                 </div>
                 <div class="lets-chat">
                     <span>Let's Chat</span>
-                    <button><i class="fab fa-rocketchat"></i></button>
+                    <button><i class="fab fa-rocketchat" style="color: #1D2043;"></i></button>
                 </div>
                 <button class="nav-toggle-btn a-nav-toggle">
                     <span class="hamburger">
@@ -90,8 +92,8 @@
                                 </ul>
                                 <a href="#Contact" class="download-cv">Download CV <i class="fas fa-download"></i></a>
                             </div>
-                            <div class="row align-items-center">
-                                <div class="col-lg-5">
+                            <div class="flex flex-wrap items-center -mxa-15">
+                                <div class="lg:grow-0 lg:shrink-0 basisa-41 pxa-15">
                                     <div class="about-content pt-100 rpt-0 animate-element delay5 fadeInUp">
                                         <span class="sub-title mb-15 animate-element delay3 fadeInUp">About Me</span>
                                         <h1 class="slide-title animate-element delay5 fadeInUp">Hi,<br> I’m <span class="text-typed a-typed a-typed-about" data-text="Niharika"></span></h1>
@@ -105,8 +107,8 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-lg-7">
-                                    <div class="about-image pt-100 rpt-50 text-lg-right">
+                                <div class="lg:grow-0 lg:shrink-0 basisa-58 pxa-15">
+                                    <div class="about-image pt-100 rpt-50 lg:text-right">
                                         <div class="about-inner-images">
                                             <img class="animate-element delay7 fadeInUp" src="assets/images/about/about.png" alt="About">
                                             <img class="shape-one animate-element delay10 bounceIn" src="assets/images/about/shape-one.png" alt="Shape">
@@ -121,8 +123,8 @@
                 <div class="section pp-scrollable slide slide-services slide-light slide-services a-slide-typed" data-name="services">
                     <div class="slide-container">
                         <div class="container">
-                            <div class="row align-items-center">
-                                <div class="col-lg-7">
+                            <div class="flex flex-wrap items-center -mxa-15">
+                                <div class="lg:grow-0 lg:shrink-0 basisa-58 pxa-15">
                                     <div class="service-image animate-element delay4 fadeInUp">
                                         <span class="sub-title mb-75">Services</span>
                                         <div class="service-inner-images">
@@ -132,7 +134,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-lg-5">
+                                <div class="lg:grow-0 lg:shrink-0 basisa-41 pxa-15">
                                     <div class="service-content pt-100 rpt-55 animate-element delay5 fadeInUp">
                                         <div class="section-title mb-25">
                                             <h2 class="slide-title animate-element delay5 fadeInUp">What <span class="text-typed a-typed a-typed-services" data-text="Services"></span> i provde to my clients in here.</h2>
@@ -173,8 +175,8 @@
                 <div class="section pp-scrollable slide slide-skills a-slide-typed" data-name="skills">
                     <div class="slide-container">
                         <div class="container">
-                           <div class="row align-items-center">
-                                <div class="col-lg-5">
+                           <div class="flex flex-wrap items-center -mxa-15">
+                                <div class="lg:grow-0 lg:shrink-0 basisa-41 pxa-15">
                                     <div class="skill-content animate-element delay5 fadeInUp">
                                         <div class="section-title mb-25">
                                             <span class="sub-title mb-45">Skills</span>
@@ -183,36 +185,36 @@
                                         <p class="animate-element delay6 fadeInUp">All desigener have good skills to make sure satisfied their clints, As a designer I am also specialised few <b>skills.</b></p>
                                         <div class="bar-list a-progressbar pt-5 animate-element delay9 fadeInUp">
                                             <div class="bar-item">
-                                                <div class="row">
-                                                    <div class="col bar-item-title">App Design</div>
-                                                    <div class="col-auto text-right bar-item-value">78%</div>
+                                                <div class="flex flex-wrap -mxa-15">
+                                                    <div class="basis-0 grow bar-item-title pxa-15">App Design</div>
+                                                    <div class="grow-0 shrink-0 basis-auto w-auto text-right bar-item-value pxa-15">78%</div>
                                                 </div>
                                                 <div class="progress">
-                                                    <div class="progress-bar" role="progressbar" aria-valuenow="78" aria-valuemin="0" aria-valuemax="100"></div>
+                                                    <div class="progress-bar flex flex-col justify-center" role="progressbar" aria-valuenow="78" aria-valuemin="0" aria-valuemax="100"></div>
                                                 </div>
                                             </div>
                                             <div class="bar-item">
-                                                <div class="row">
-                                                    <div class="col bar-item-title">Web Design</div>
-                                                    <div class="col-auto text-right bar-item-value">95%</div>
+                                                <div class="flex flex-wrap -mxa-15">
+                                                    <div class="basis-0 grow bar-item-title pxa-15">Web Design</div>
+                                                    <div class="grow-0 shrink-0 basis-auto w-auto text-right bar-item-value pxa-15">95%</div>
                                                 </div>
                                                 <div class="progress">
                                                     <div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
                                                 </div>
                                             </div>
                                             <div class="bar-item">
-                                                <div class="row">
-                                                    <div class="col bar-item-title">Art & illustration</div>
-                                                    <div class="col-auto text-right bar-item-value">65%</div>
+                                                <div class="flex flex-wrap -mxa-15">
+                                                    <div class="basis-0 grow bar-item-title pxa-15">Art & illustration</div>
+                                                    <div class="grow-0 shrink-0 basis-auto w-auto text-right bar-item-value pxa-15">65%</div>
                                                 </div>
                                                 <div class="progress">
                                                     <div class="progress-bar" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100"></div>
                                                 </div>
                                             </div>
                                             <div class="bar-item">
-                                                <div class="row">
-                                                    <div class="col bar-item-title">Banding</div>
-                                                    <div class="col-auto text-right bar-item-value">85%</div>
+                                                <div class="flex flex-wrap -mxa-15">
+                                                    <div class="basis-0 grow bar-item-title pxa-15">Banding</div>
+                                                    <div class="grow-0 shrink-0 basis-auto w-auto text-right bar-item-value pxa-15">85%</div>
                                                 </div>
                                                 <div class="progress">
                                                     <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
@@ -221,8 +223,8 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-lg-7">
-                                    <div class="skill-image pt-55 text-lg-right animate-element delay4 fadeInUp">
+                                <div class="lg:grow-0 lg:shrink-0 basisa-58 pxa-15 w-full">
+                                    <div class="skill-image pt-55 lg:text-right animate-element delay4 fadeInUp">
                                         <div class="skill-images-inner">
                                             <img src="assets/images/skills/skills.png" alt="Skills">
                                             <img class="shape-one animate-element delay6 bounceIn" src="assets/images/skills/shape-one.png" alt="shape">
@@ -237,8 +239,8 @@
                 <div class="section pp-scrollable slide slide-resume slide-light">
                     <div class="slide-container">
                         <div class="container">
-                           <div class="row align-items-center">
-                                <div class="col-lg-6">
+                           <div class="flex flex-wrap items-center -mxa-15">
+                                <div class="grow-0 shrink-0 basis-1/2 pxa-15">
                                     <div class="educations rmb-55">
                                         <div class="section-title mb-45 animate-element delay2 fadeInUp">
                                             <span class="sub-title mb-45">qualification</span>
@@ -266,7 +268,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-lg-6">
+                                <div class="grow-0 shrink-0 basis-1/2 pxa-15">
                                     <div class="experiecnes">
                                         <div class="section-title mb-45 animate-element delay4 fadeInUp">
                                             <span class="sub-title mb-45">Experiecne</span>
@@ -299,18 +301,18 @@
                 <div class="section pp-scrollable slide slide-portfolio a-slide-typed" data-name="portfolio">
                     <div class="slide-container">
                         <div class="container">
-                           <div class="row align-items-center justify-content-between mb-25">
-                                <div class="col-xl-5 col-lg-6">
+                           <div class="flex flex-wrap items-center -mxa-15 justify-between m-b25a">
+                                <div class="col-xl-5 lg:grow-0 lg:shrink-0 basisa-41 pxa-15">
                                     <div class="portfolio-content">
-                                        <div class="section-title mb-35">
-                                            <span class="sub-title mb-45 animate-element delay5 fadeInUp">Portfolio</span>
+                                        <div class="section-title m-b35a">
+                                            <span class="sub-title m-b45a animate-element delay5 fadeInUp">Portfolio</span>
                                             <h2 class="slide-title animate-element delay6 fadeInUp">Some of my Creative <span class="text-typed a-typed a-typed-portfolio" data-text="Works."></span></h2>
                                         </div>
                                         <p class="animate-element delay7 fadeInUp">As a designer I have been working few years in this sector, and i have complted lot's of project <b><a href="#">see here.</a></b></p>
                                         <a href="blog.html" class="read-more mt-45 rmt-25 animate-element delay8 fadeInUp">Explore More <i class="fas fa-long-arrow-alt-right"></i></a>
                                     </div>
                                 </div>
-                                <div class="col-xl-5 col-lg-6">
+                                <div class="col-xl-5 lg:grow-0 lg:shrink-0 basisa-41 pxa-15">
                                     <div class="counter-wrap rmb-15 animate-element delay9 fadeInUp">
                                         <div class="success-box">
                                             <span class="count-text lass-than-ten" data-speed="3000" data-stop="7">0</span>
@@ -343,16 +345,16 @@
                 <div class="section pp-scrollable slide slide-testimonials slide-light a-slide-typed" data-name="testimonials">
                     <div class="slide-container">
                         <div class="container">
-                            <div class="row align-items-end">
-                                <div class="col-lg-6">
+                            <div class="flex flex-wrap items-end -mxa-15">
+                                <div class="lg:grow-0 lg:shrink-0 lg:basis-1/2 pxa-15">
                                     <div class="testimonial-left-image rmb-75 animate-element delay5 fadeInUp">
                                         <img src="assets/images/testimonials/testimonial.png" alt="testimonials">
                                         <img class="shape-one animate-element delay8 bounceIn" src="assets/images/testimonials/shape-one.png" alt="shape">
                                         <img class="shape-two animate-element delay5 zoomInLeft" src="assets/images/testimonials/shape-two.png" alt="shape">
                                     </div>
                                 </div>
-                                <div class="col-lg-6">
-                                    <div class="testimonials-content ml-lg-auto rel">
+                                <div class="lg:grow-0 lg:shrink-0 lg:basis-1/2 pxa-15">
+                                    <div class="testimonials-content lg:ml-auto rel">
                                         <div class="section-title mb-35">
                                             <span class="sub-title mb-45 animate-element delay6 fadeInUp">Testimonial</span>
                                             <h2 class="slide-title animate-element delay7 fadeInUp">What my happy <span class="text-typed a-typed a-typed-testimonials" data-text="client"></span> saying their services.</h2>
@@ -411,8 +413,8 @@
                 <div class="section pp-scrollable slide slide-weapons a-slide-typed" data-name="weapons">
                     <div class="slide-container">
                         <div class="container">
-                           <div class="row align-items-center">
-                                <div class="col-lg-6">
+                           <div class="flex flex-wrap items-center -mxa-15">
+                                <div class="lg:grow-0 lg:shrink-0 lg:basis-1/2 pxa-15">
                                     <div class="weapons-content rmb-75 animate-element delay5 fadeInUp">
                                         <div class="section-title mb-35">
                                             <span class="sub-title mb-45">My Weapons</span>
@@ -422,7 +424,7 @@
                                         <a href="#About" class="read-more mt-15 animate-element delay8 fadeInUp">Lets See My Work Process <i class="fas fa-long-arrow-alt-right"></i></a>
                                     </div>
                                 </div>
-                                <div class="col-lg-6">
+                                <div class="lg:grow-0 lg:shrink-0 lg:basis-1/2 pxa-15">
                                     <div class="weapons-images">
                                         <div class="weapons-item one animate-element delay11 bounceIn">
                                             <img src="assets/images/weapons/figma.png" alt="Figma">
@@ -458,8 +460,8 @@
                     <div class="slide-container">
                         <div class="container">
                            <div class="contact-wrap mb-185 rmb-95">
-                               <div class="row align-items-end">
-                                    <div class="col-lg-7">
+                               <div class="flex flex-wrap items-end -mxa-15">
+                                    <div class="lg:grow-0 lg:shrink-0 basisa-58 pxa-15">
                                         <div class="contact-content">
                                             <div class="section-title mb-55">
                                                <span class="sub-title mb-55 animate-element delay5 fadeInUp">contact me</span>
@@ -479,7 +481,7 @@
                                             </form>
                                         </div>
                                     </div>
-                                    <div class="col-lg-5">
+                                    <div class="lg:grow-0 lg:shrink-0 basisa-41 pxa-15">
                                         <div class="contact-image animate-element text-center delay7 fadeInLeft">
                                             <img src="assets/images/contact/contact.png" alt="Contact">
                                         </div>
@@ -528,8 +530,6 @@
     
     <!--====== Jquery ======-->
     <script src="assets/js/jquery-3.6.0.min.js"></script>
-    <!--====== Bootstrap ======-->
-    <script src="assets/js/bootstrap.4.5.3.min.js"></script>
     <!--====== PagePiling ======-->
     <script src="assets/js/jquery.pagepiling.min.js"></script>
     <!--====== Jquery Viewport ======-->
