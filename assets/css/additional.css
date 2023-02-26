@@ -2,6 +2,13 @@
     width: 100%;
     margin: 0 auto;
 }
+.pxa-15{
+    padding: 0 15px;
+}
+
+.-mxa-15{
+    margin: 0 -15px;
+}
 .progress {
     display: flex;
     background-color: #e9eeef;
@@ -32,14 +39,6 @@ h6{
     margin-right: .5rem;
 }
 @media (min-width:1024px){
-    .pxa-15{
-        padding: 0 15px;
-    }
-
-    .-mxa-15{
-        margin: 0 -15px;
-    }
-
     .basisa-41{
         flex-basis:41.6667%;
         max-width: 41.6667%;
