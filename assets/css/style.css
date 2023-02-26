@@ -1982,7 +1982,7 @@ blockquote .designation {
 }
 
 .dark-body .form-control {
-    color: #A3A5A7;
+    color: #a3a5a7;
 }
 
 .dark-body .form-control:not(:focus) {
@@ -2051,4 +2051,60 @@ blockquote .designation {
 
 .landing-preview-item .image:hover .theme-btn {
     opacity: 1;
+}
+/* Additional css */
+.m-b25a{
+    margin-bottom: 25px!important;
+}
+.m-b35a{
+    margin-bottom: 35px!important;
+}
+.m-b45a{
+    margin-bottom: 45px!important;
+}
+.-mxa-15{
+    margin: 0 -15px;
+}
+.pxa-15{
+    padding: 0 15px;
+}
+h5,h6{
+    font-weight: 500;
+}
+
+
+.container{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.progress {
+    display: flex;
+    background-color: #e9eeef;
+}
+.progress-bar {
+    display: flex;
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    height: calc(1.5em + .75rem + 2px);
+    line-height: 1.5;
+    color: #495057;
+}
+.list-inline-item:not(:last-child) {
+    margin-right: .5rem;
+}
+
+
+@media (min-width:1024px){
+    .basisa-41{
+        flex-basis:41.6667%;
+        max-width: 41.6667%;
+    }
+    .basisa-58{
+        flex-basis: 58.333333%;
+        max-width: 58.333333%;
+    }
 }
